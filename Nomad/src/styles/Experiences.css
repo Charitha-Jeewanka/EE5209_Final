@@ -1,0 +1,73 @@
+:root {
+  /*background colors*/
+  --clr-dark-background: #3c3c3c;
+  --clr-light-background: #fcf9f9;
+
+  /*primary colors*/
+  --clr-primary-blue: #00b4d8;
+  --clr-primary-yellow: #fdb200;
+  --clr-primary-orange: #ff7920;
+  --clr-light-yellow: #ffcd56;
+  --clr-dark-font: #2a260e;
+
+  --clr-hover-blue: #caf0f8;
+
+  /*shades of grey*/
+  --clr-light-grey: #646463;
+
+  /*shadows*/
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Experience-container {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  display: flexbox;
+  flex-direction: row;
+}
+
+.main h1 {
+  color: var(--clr-primary-orange);
+}
+
+.contact-container {
+  width: 25%;
+}
+
+.rules-container {
+  margin: 1em 2em;
+  text-align: left;
+  width: 75%;
+}
+
+.list-item {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: var(--clr-primary-blue);
+}
+
+.list-item p {
+  margin: 15px 0;
+  font-size: medium;
+  font-weight: normal;
+  color: var(--clr-dark-font);
+}
+
+.list-item img {
+  width: 100%;
+  filter: brightness(0.5);
+  filter: blur(0.5);
+  scale: 0.8;
+}

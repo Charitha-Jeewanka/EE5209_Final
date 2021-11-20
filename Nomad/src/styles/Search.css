@@ -1,0 +1,20 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.search-container h4 {
+  margin-top: 25px;
+}
+
+.search-control input {
+  width: 40%;
+  vertical-align: middle;
+  margin: 2rem;
+  padding: 12px;
+  background: transparent;
+  border: lightslategray 5px solid;
+  border-radius: 25px;
+  outline: none;
+}

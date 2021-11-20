@@ -1,0 +1,45 @@
+.dest-hero {
+  background-image: url("https://images.unsplash.com/photo-1554205163-2b386a29d718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
+  height: 92vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dest-hero::after {
+  background: hsla(180, 0%, 50%, 0.5);
+}
+
+.dest-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute; */
+
+  margin: 25px auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.add-link {
+  margin: 2em 0 0 4em;
+}
+.dest-container h1 {
+  color: white;
+  font-family: poppins;
+  text-align: center;
+  font-size: 4em;
+  top: -20px;
+}
+
+.dest-container img {
+  scale: 1;
+  top: -40px;
+  margin-top: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
